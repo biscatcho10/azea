@@ -159,7 +159,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('livewire.index');
+    return redirect()->route('dashboard.home');
 });
 Route::get('index', Index::class);
 Route::get('accordion', Accordion::class);

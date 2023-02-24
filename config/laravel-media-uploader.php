@@ -19,5 +19,12 @@ return [
         'application/x-rar',
         'application/x-rar-compressed',
         'application/octet-stream',
+        'image/svg',
+        'video/mp4',
+        'video/x-flv',
+        'video/quicktime',
+        'video/x-ms-wmv',
+        'video/x-msvideo',
+        'audio/*'
     ],
 ];
